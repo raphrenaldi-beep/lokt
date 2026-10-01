@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lokt</title>
+<style>
+:root { --bg: #f5f5f7; --card: #ffffff; --ink: #1d1d1f; --muted: #6e6e73; --line: #d2d2d7; --link: #0066cc; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #111113; --card: #1c1c1e; --ink: #f5f5f7; --muted: #a1a1a6; --line: #38383a; --link: #4da3ff; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+nav { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-bottom: 28px; font-size: 15px; }
+nav a { color: var(--muted); text-decoration: none; } nav a.here, nav a:hover { color: var(--ink); }
+nav .brand { color: var(--ink); font-weight: 700; letter-spacing: .02em; margin-right: auto; }
+h1 { font-size: 32px; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 22px; margin: 36px 0 10px; } h3 { font-size: 18px; margin: 26px 0 8px; }
+a { color: var(--link); overflow-wrap: anywhere; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 18px 0; }
+.lead { font-size: 19px; color: var(--muted); }
+li { margin: 4px 0; }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+@media print { nav, footer { display: none; } body { background: #fff; color: #000; } }
+</style>
+</head>
+<body>
+<main>
+<nav><a class="brand here" href="">Lokt</a><a class="" href="conditions/">Conditions</a><a class="" href="confidentialite/">Confidentialité</a><a class="" href="versions/">Versions</a></nav>
+
+<h1>Lokt</h1>
+<p class="lead">Une carte de membre personnelle et symbolique, sur votre iPhone.</p>
+<div class="card">
+<p><strong>Ce n'est pas une carte de paiement.</strong> Votre carte Lokt n'a aucune valeur monétaire, ne permet aucun
+paiement, ne donne droit à aucun avantage et n'est pas une pièce d'identité. Lokt n'est lié à aucune banque,
+à aucun émetteur de cartes ni à aucun réseau de paiement.</p>
+</div>
+
+<h2>Assistance</h2>
+<p>Une question, un problème, un signalement ? Écrivez à <a href="mailto:raph.renaldi@gmail.com">raph.renaldi@gmail.com</a>
+ou appelez le 07 50 15 77 56. Une personne vous répond, en français ou en anglais, en principe sous quinze jours.</p>
+<ul>
+<li><strong>Supprimer votre compte</strong> : dans l'app, profil, puis « Supprimer mon compte ». C'est immédiat.</li>
+<li><strong>Ouvrir votre carte d'un geste</strong> : dans l'app, « Configurer le raccourci », puis suivez le guide.</li>
+<li><strong>Remboursement de l'achat</strong> : auprès d'Apple, sur <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</li>
+<li><strong>Signaler un usage trompeur d'une carte Lokt</strong> : écrivez-nous, objet « Signalement ».</li>
+</ul>
+<p>Lokt ne vous demandera jamais vos mots de passe, une pièce d'identité ou un paiement en dehors de l'App Store.</p>
+
+<h2>Documents</h2>
+<ul>
+<li><a href="conditions/">Conditions d'utilisation</a></li>
+<li><a href="confidentialite/">Politique de confidentialité</a></li>
+<li><a href="versions/">Historique des versions</a></li>
+</ul>
+
+<h2>Mentions légales</h2>
+<p><strong>Éditeur</strong> : Raphaël Renaldi EI (entrepreneur individuel), SIREN en cours d'attribution,
+Aubagne (13400), France. E-mail : <a href="mailto:raph.renaldi@gmail.com">raph.renaldi@gmail.com</a>. Téléphone : 07 50 15 77 56.<br>
+<strong>Directeur de la publication</strong> : Raphaël Renaldi.<br>
+<strong>Hébergement du site</strong> : GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.<br>
+<strong>Hébergement des données de l'app</strong> : Supabase Pte. Ltd., serveurs d'Amazon Web Services en Irlande
+(voir la <a href="confidentialite/">politique de confidentialité</a>).<br>
+Ce site n'utilise ni cookie ni mesure d'audience.</p>
+<p>Apple et iPhone sont des marques d'Apple Inc. Lokt n'est ni affilié à Apple, ni parrainé par Apple.</p>
+
+<footer>Lokt · Raphaël Renaldi EI · <a href="mailto:raph.renaldi@gmail.com">raph.renaldi@gmail.com</a> · 07 50 15 77 56</footer>
+</main>
+</body>
+</html>
